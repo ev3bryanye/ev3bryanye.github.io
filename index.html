@@ -1,13 +1,36 @@
 <html>
-  <head><a href="song.mp3">link music text</a></br>
-     Welcome to Bryan Ye's Website!
+  <head>
+  <meta charset="UTF-8">
+  <title>Redirect Button</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
   </head>
   <body>
+      <button onclick="redirectToPage()">Go to my resume</button>
+
+  <script>
+    function redirectToPage() {
+      window.location.href = 'resume.html';
+    }
+  </script>
     <div style="background-color:white;color:black"> <h1>About Me:</h1><br/></div>
 <h1 style="color:black">Hi my name is Bryan! <br/> I am a grade 10 student at RHHS.<br/> I also live in canada.<br/></h1>
   <a href="myvideo.html">These are my favorite youtube videos </a><br/>
     <a href="form.html">link to contact me! </a><br/>
-    <a href="resume.html">link to my resume! </a><br/>
     <a href="http://ev3jasonbi.github.io">link this is my friend's website </a><br/>
     <a href="http://ev3alexli.github.io">link this is my friend's website</a>
     <a href="myimage.html">link image text</a></br>
